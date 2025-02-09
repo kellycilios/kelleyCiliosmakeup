@@ -26,7 +26,6 @@ a {
 
 #header {
     display: flex;
-    font-family: "Roboto Condensed", serif;
     padding: 1rem;
     justify-content: space-between;
     align-items: center;

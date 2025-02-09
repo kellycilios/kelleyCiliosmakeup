@@ -21,12 +21,14 @@
         z-index: 1000;
         height: 0px;
         visibility: hidden;
-        transition: .6s;
         overflow-y: hidden;
+        transition: .6s;
+
     }
     #nav.active #menu {
-        visibility: visible;
         height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
         
     }
     #menu a:hover {
@@ -59,6 +61,7 @@
    }
    #nav.active #hambuger {
     border-top-color: transparent;
+   
    }
    #nav.active #hambuger::before{
     transform: rotate(135deg);
