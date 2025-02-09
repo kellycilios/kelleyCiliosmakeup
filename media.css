@@ -33,7 +33,7 @@
     }
     #menu a:hover {
         padding: 10px;
-       border-bottom: 2px solid rgba(0,0, 0, 0);
+       border-bottom: 2px solid rgba(0,0,0, .05);
     }
     #btn-mobile {
         display: flex;
@@ -45,7 +45,7 @@
         background: none;
     }
    #hambuger{
-    border-top: 2px solid;
+    border-top: 2px solid black;
     width: 20px;
    }
    #hambuger::after,  #hambuger::before {
