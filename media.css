@@ -41,11 +41,13 @@
         font-size: 15px;
         border: none;
         cursor: pointer;
+       
+        background: black;
         gap: .5rem;
         background: none;
     }
    #hambuger{
-    border-top: 2px solid black;
+    border-top: 2px solid;
     width: 20px;
    }
    #hambuger::after,  #hambuger::before {
