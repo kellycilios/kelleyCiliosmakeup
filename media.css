@@ -1,5 +1,13 @@
 
 @media (max-width: 600px){
+
+    .conteiner li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 6%;
+
+    }
     #btn-mobile {
         display: block;
     }
