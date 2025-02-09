@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Kelly Cilios</title>
+</head>
+<body>
+    <header id="header">
+        <img src="Imagem cilios/logo-marca.png" alt="">
+        <na id="nav">
+           <button id="btn-mobile">
+            <span id="hambuger"></span>
+           </button>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="logo">
+        <img src="Imagem cilios/imagem-marca.png" alt="">
+    </div>
+
+    <section class="ceo" id="Sobre nos">
+        <h5>Realce a beleza do seu olhar com a especialista em extensão de cílios fio a fio e maquiagem personalizada!</h5>
+        <p>Também sou apaixonada por realçar a beleza natural com design de sobrancelhas sob medida para você.</p>
+    </section>
+    <section class="conteiner">
+        <ul>
+            <li>
+                <img src="Imagem cilios/Cilios-02.jpg">
+
+                <img src="Imagem cilios/Ceo.jpg" alt="Cilios01">
+                
+                <img src="Imagem cilios/Cilios.jpg" alt="Cilios02">
+
+                <img src="Imagem cilios/Maquiagem-acesseorio.jpg">
+
+                <img src="Imagem cilios/Ceo-maquiagem.jpg" alt="Cilios01">
+                
+                <img src="Imagem cilios/Maquiagem.jpg" alt="Cilios02">
+            </li>
+        </ul>
+    </section>
+     
+    <section class="contato" id="contato">
+        <p>Entre em contato conosco para agendar o seu atendimento.</p>
+    
+    <div>
+       <a href="https://www.instagram.com/kelly_cilios.makeup/"><img src="Imagem cilios/logo-instagram.jpg" alt="instagram"></a>
+        <a href="https://api.whatsapp.com/send/?phone=5571993345307&text&type=phone_number&app_absent=0"><img src="Imagem cilios/logo-whatsapp.png" alt="whatsapp"></a>
+    </div> 
+    </section>
+    <main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14628.388719220982!2d-38.41693261768305!3d-12.784152657053896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161343ce50a9e5%3A0x947375afe27a85b3!2sKelly%20c%C3%ADlios%20makeup!5e1!3m2!1spt-BR!2sbr!4v1738380769936!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+    <footer class="criado">
+        <p>Projeto desenvolvindo por <a href="https://www.linkedin.com/in/kaio-arruda-1017782a9/">Kaio arruda</a>.</p>
+    </footer>
+    <script>
+        const btnMobile = document.getElementById('btn-mobile');
+
+        function toggleMenu(){
+            const nav = document.getElementById('nav');
+            nav.classList.toggle('active');
+        }
+
+        btnMobile.addEventListener('click', toggleMenu);
+    </script> 
+</body>
+</html>

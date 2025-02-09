@@ -1,0 +1,107 @@
+
+@media (max-width: 600px){
+    #btn-mobile {
+        display: block;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background:white;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        transition: .6s;
+        overflow-y: hidden;
+    }
+    #nav.active #menu {
+        visibility: visible;
+        height: calc(100vh - 70px);
+        
+    }
+    #menu a:hover {
+        padding: 10px;
+       border-bottom: 2px solid rgba(0,0, 0, .05);
+    }
+    #btn-mobile {
+        display: flex;
+        padding: 10px 10px;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        gap: .5rem;
+        background: none;
+    }
+   #hambuger{
+    border-top: 2px solid;
+    width: 20px;
+   }
+   #hambuger::after,  #hambuger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: black;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+    
+   }
+   #nav.active #hambuger {
+    border-top-color: transparent;
+   }
+   #nav.active #hambuger::before{
+    transform: rotate(135deg);
+   }
+   #nav.active #hambuger::after{
+    transform: rotate(-135deg);
+    top: -7px;
+   }
+}  
+
+   
+@media (max-width: 820px){
+    .ceo {
+        display: flex; 
+    }
+    .ceo > h5 {
+        font-size: 10px;
+        
+    }
+    .ceo > p{
+        font-size: 11px;
+    }
+    .contato > p {
+        padding: 10px;
+        font-size: 13px;
+    }
+    main > iframe {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 415px;
+        height: 290px;
+    }
+    .criado> p {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1200px) {
+    .ceo > h5 {
+        font-size: 14px;
+    }
+    .ceo > P{
+        font-size: 12px;
+    }
+    main > iframe {
+        width: 820px;
+        height: 200px;
+    }
+    .criado > p {
+        font-size: 15px;
+    }
+}
