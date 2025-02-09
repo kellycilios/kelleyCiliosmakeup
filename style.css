@@ -24,7 +24,7 @@ a {
     font-weight: bold;
 }
 
-#header {
+#header  {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
