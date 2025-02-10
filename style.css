@@ -45,6 +45,7 @@ a {
 }
 #menu a {
     display: block;
+    font-family: "Roboto Condensed", serif;
     padding: .5rem;
 }
 #btn-mobile {
@@ -89,7 +90,7 @@ a {
     height: 250px;
     padding: 10px;
     cursor: pointer;
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 
 .contato {
